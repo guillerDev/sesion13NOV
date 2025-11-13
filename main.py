@@ -1,7 +1,6 @@
 import csv
 
 
-
 def generar_script_sql(nombre_tabla="sensor_data",
                         nombre_archivo="lecturas_bis.csv",
                         nombre_script="script.sql"):
@@ -50,6 +49,7 @@ def generar_script_sql(nombre_tabla="sensor_data",
                     valores_formateados.append(f"'{valor}'")
             base_insert += f"({', '.join(valores_formateados)}),\n"
 
+        base_insert = base_insert.rstrip(",\n") + ";\n"
         archivo_salida.write(base_insert)
 
 
@@ -71,4 +71,4 @@ def inferir_tipo_sql(valor):
 
 
 
-generar_script_sql()
+generar_script_sql("sensor_data", "lecturas_bis.csv", "script.sql")

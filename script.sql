@@ -61,4 +61,4 @@ INSERT INTO sensor_data (ID_Lectura, Fecha_Hora, ID_Sensor, Tipo_Medicion, Unida
 ('L-9042', '2024-07-15T08:00:00', 'S-503', 'Humedad', '%', 60, 'E-105', 'Alpes Bavaros', 'Montaña', 'Alemania', 47.42, 10.985, 'P-03', 'Clima de Altura', 'Dr. Ito'),
 ('L-9043', '2025-01-15T08:00:00', 'S-501', 'Temperatura', '°C', -7.2, 'E-105', 'Alpes Bavaros', 'Montaña', 'Alemania', 47.42, 10.985, 'P-03', 'Clima de Altura', 'Dr. Ito'),
 ('L-9044', '2025-01-15T08:00:00', 'S-502', 'CO2', 'ppm', 398, 'E-105', 'Alpes Bavaros', 'Montaña', 'Alemania', 47.42, 10.985, 'P-03', 'Clima de Altura', 'Dr. Ito'),
-('L-9045', '2025-01-15T08:00:00', 'S-503', 'Humedad', '%', 72, 'E-105', 'Alpes Bavaros', 'Montaña', 'Alemania', 47.42, 10.985, 'P-03', 'Clima de Altura', 'Dr. Ito'),
+('L-9045', '2025-01-15T08:00:00', 'S-503', 'Humedad', '%', 72, 'E-105', 'Alpes Bavaros', 'Montaña', 'Alemania', 47.42, 10.985, 'P-03', 'Clima de Altura', 'Dr. Ito');
